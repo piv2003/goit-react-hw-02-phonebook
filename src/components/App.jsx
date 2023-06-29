@@ -43,4 +43,30 @@ export class App extends Component {
       ? this.notifiesAlert(newName)
       : this.addContact(newName, number);
   };
+
+  handleChange = e => {
+    const { name, value } = e.currentTarget;
+    this.setState({
+      [name]: value,
+    });
+  };
+
+  render() {
+    const { contacts, filter } = this.state;
+
+    return (
+      <AppBox>
+        <h1>Phonebook</h1>
+        <Form onSubmit={this.handleSubmit} />
+
+        <h2>Contacts</h2>
+        <Filter onChange={this.handleChange} value={filter} />
+        <ContactsList
+          contacts={contacts}
+          filter={filter}
+          onDeleteContact={this.onDeleteContact}
+        />
+      </AppBox>
+    );
+  }
 }

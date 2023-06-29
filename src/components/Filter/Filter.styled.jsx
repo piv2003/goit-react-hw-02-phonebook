@@ -8,7 +8,9 @@ export const LabelFilter = styled.label`
   & span {
     margin-right: 10px;
     font-size: 18px;
-    /* text-shadow: 3px 5px 2px #474747; */
+    font-weight: 700;
+    color: #d4f783;
+    text-shadow: 3px 5px 2px #474747;
   }
 `;
 

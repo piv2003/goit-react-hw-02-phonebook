@@ -24,6 +24,7 @@ export const Item = styled.li`
   & button {
     margin-left: auto;
     padding: 5px;
+    cursor: pointer;
   }
 `;
 

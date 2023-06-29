@@ -21,4 +21,10 @@ export class App extends Component {
       contacts: [...contacts, { id: nanoid(4), name, number }],
     }));
   };
+
+  checkСontact = nameContact => {
+    return this.state.contacts.some(
+      ({ name: curentName }) => curentName === nameContact
+    );
+  };
 }

@@ -6,10 +6,12 @@ export const FormBox = styled.form`
   padding: 15px;
   background: white;
   border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 75px 75px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 21px, rgba(0, 0, 0, 0.09) 0px -3px 2px;
 
   & label {
     & span {
-      display: block;
       margin-bottom: 15px;
     }
   }

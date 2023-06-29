@@ -24,11 +24,15 @@ export const Item = styled.li`
   & button {
     margin-left: auto;
     padding: 5px;
+    border-radius: 5px;
     cursor: pointer;
   }
 `;
 
-export const Name = styled.span``;
+export const Name = styled.span`
+  color: #bbff00;
+  font-weight: 500;
+`;
 
 export const Number = styled.span`
   color: #550404;

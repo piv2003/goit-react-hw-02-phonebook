@@ -37,4 +37,10 @@ export class App extends Component {
   notifiesAlert = nameContact => {
     alert(`${nameContact} is already in contacts.`);
   };
+
+  handleSubmit = ({ name: newName, number }) => {
+    this.checkСontact(newName)
+      ? this.notifiesAlert(newName)
+      : this.addContact(newName, number);
+  };
 }

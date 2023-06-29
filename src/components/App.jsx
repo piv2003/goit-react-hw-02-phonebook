@@ -33,4 +33,8 @@ export class App extends Component {
       contacts: prevState.contacts.filter(({ id }) => id !== contactId),
     }));
   };
+
+  notifiesAlert = nameContact => {
+    alert(`${nameContact} is already in contacts.`);
+  };
 }

@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import ContactListItem from 'components/ContactListItem/ContactListItem';
-import { List } from './ContactsList.styled';
+import { List, P } from './ContactsList.styled';
 
 const ContactsList = ({ contacts, filter, onDeleteContact }) => {
   return contacts.length > 0 ? (
@@ -18,7 +18,7 @@ const ContactsList = ({ contacts, filter, onDeleteContact }) => {
         ))}
     </List>
   ) : (
-    <p>Contact list is empty</p>
+    <P>Contact list is empty</P>
   );
 };
 

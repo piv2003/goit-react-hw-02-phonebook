@@ -15,4 +15,10 @@ export class App extends Component {
     ],
     filter: '',
   };
+
+  addContact = (name, number) => {
+    this.setState(({ contacts }) => ({
+      contacts: [...contacts, { id: nanoid(4), name, number }],
+    }));
+  };
 }

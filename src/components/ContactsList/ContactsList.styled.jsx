@@ -23,7 +23,7 @@ export const P = styled.p`
   }
   color: rgb(245, 245, 245);
   text-shadow: 0 -1px rgba(0, 0, 0, 0.1);
-  background: #da96fa;
+  background: #ac17f1;
   border-radius: 7px;
   -webkit-animation: pulsate 2.2s linear infinite;
   animation: pulsate 2.2s linear infinite;

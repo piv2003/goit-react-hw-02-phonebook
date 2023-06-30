@@ -35,7 +35,7 @@ export const InputTel = styled(InputName)`
 `;
 
 export const Button = styled.button`
-  color: #560bad;
+  color: #ee66d0;
   padding: 5px;
   display: inline-flex;
   align-items: center;
@@ -49,4 +49,7 @@ export const Button = styled.button`
   border: 2px solid pink;
   border-radius: 6px;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 10px, rgba(0, 0, 0, 0.12) 0px -3px 5px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 3px 5px,
+    rgba(0, 0, 0, 0.09) 0px -3px 2px;
 `;

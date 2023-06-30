@@ -16,14 +16,12 @@ class Form extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-
     this.props.onSubmit(this.state);
     this.setState({ name: '', number: '' });
   };
 
   render() {
     const { name, number } = this.state;
-
     return (
       <FormBox onSubmit={this.handleSubmit} autoComplete="off">
         <label>

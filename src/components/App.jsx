@@ -56,9 +56,8 @@ export class App extends Component {
 
     return (
       <AppBox>
-        <h1>Phonebook</h1>
+        <h1>PhoneBook</h1>
         <Form onSubmit={this.handleSubmit} />
-
         <h2>Contacts</h2>
         <Filter onChange={this.handleChange} value={filter} />
         <ContactsList

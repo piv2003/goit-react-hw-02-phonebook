@@ -13,6 +13,7 @@ export const FormBox = styled.form`
   & label {
     & span {
       margin-bottom: 15px;
+      font-weight: bold;
     }
   }
 `;

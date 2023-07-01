@@ -14,6 +14,7 @@ export const FormBox = styled.form`
     & span {
       margin-bottom: 15px;
       font-weight: bold;
+      color: #8005c7;
     }
   }
 `;
